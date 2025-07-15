@@ -1,0 +1,82 @@
+{
+  "Hero": {
+    "title": "Halo, saya Zulfian Hamzah!",
+    "description": "Pengembang web dan aplikasi adalah passion saya, dan nama saya Muhammad Zulfian. Saya memulai dengan dasar yang kuat dan terus mengasah keterampilan di kedua bidang ini. Pendidikan saya di Prodi Informatika melengkapi pengalaman nyata dari berbagai proyek yang saya kerjakan, mendorong saya untuk selalu menciptakan solusi yang bervariasi dan inovatif."
+  },
+  "ProfileCard": {
+    "title": "Pengembang Web dan Aplikasi",
+    "contactMe": "Hubungi Saya"
+  },
+  "Header": {
+    "home": "Beranda",
+    "projects": "Proyek",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "language": "Bahasa"
+  },
+  "About": {
+    "title": "Tentang Saya",
+    "description1": "Saya seorang pengembang dengan fondasi kuat di HTML, CSS, dan JavaScript. Saya ahli dalam pengembangan aplikasi mobile menggunakan Flutter dan Dart, serta memiliki pemahaman solid tentang SQL. Untuk pengembangan web, saya terbiasa dengan React.js dan Node.js untuk membangun antarmuka pengguna interaktif dan API yang skalabel. Saya juga mampu mengembangkan aplikasi Android native dan antusias untuk menguasai konsep lanjutan seperti desain responsif, animasi, manajemen state, dan integrasi full-stack.",
+    "description2": "Saya berpengalaman menggunakan Visual Studio Code, Android Studio, Git, dan npm. Sebagai individu yang kolaboratif, saya selalu terbuka untuk belajar dan berkontribusi pada proyek inovatif, berkomitmen pada peningkatan diri, dan siap menghadapi tantangan dalam menciptakan solusi digital yang efektif dan modern di masa depan.",
+    "cardFrontendTitle": "Developer Frontend",
+    "cardFrontendDesc": "Membangun antarmuka pengguna yang responsif dan interaktif menggunakan framework modern.",
+    "cardBackendTitle": "Developer Backend",
+    "cardBackendDesc": "Merancang API yang kuat, skema database, dan logika server yang efisien.",
+    "cardUiTitle": "Design UI",
+    "cardUiDesc": "Merancang antarmuka yang intuitif dan berpusat pada pengguna.",
+    "cardMobileTitle": "Pengembangan Aplikasi Mobile",
+    "cardMobileDesc": "Mengembangkan aplikasi lintas platform dengan performa mendekati native."
+  },
+  "footer": {
+    "downloadCV": "Unduh CV"
+  },
+  "Project": {
+    "title": "Proyek Saya",
+    "description1": "Berikut adalah beberapa proyek yang telah saya buat.",
+    "viewProject": "Lihat Proyek",
+    "seeMoreGithub": "Lihat lebih banyak di GitHub",
+    "timeline": {
+      "header": "Timeline Pengalaman Saya",
+      "mac": "Mulai Membangun Website (2017)",
+      "imac": "Kuliah Di Bidang Informatika (2021 - 2025)",
+      "ipod": "Sering Mengerjakan Proyek (2021 - Sekarang)",
+      "iphone": "Magang Di Persuahaan Consultant IT Divisi R&D (2025 - Sekarang)",
+      "watch": "Apple Watch"
+    },
+    "items": {
+      "1": {
+        "title": "Website Logistik React",
+        "desc": "Pengelolaan order perusahaan logistik serta pelacakan."
+      },
+      "2": {
+        "title": "Website Pembayaran React",
+        "desc": "Website form pembayaran menggunakan payment gateway."
+      },
+      "3": {
+        "title": "Aplikasi Prediksi Flutter",
+        "desc": "Aplikasi memprediksi komponen yang sering rusak menggunakan backend ML python"
+      },
+      "4": {
+        "title": "Aplikasi Baca dan Setting Device Esp Flutter",
+        "desc": "Aplikasi yang digunakan untuk setting device IOT menggunakan BLE dan BL."
+      },
+      "5": {
+        "title": "Dashboard E‑Commerce",
+        "desc": "Dashboard admin untuk monitoring penjualan secara real‑time."
+      },
+      "6": {
+        "title": "Aplikasi Media Sosial",
+        "desc": "Aplikasi mobile berbasis React Native + Supabase."
+      },
+      "7": {
+        "title": "Website Portofolio",
+        "desc": "Website pribadi dengan animasi GSAP & Three.js."
+      },
+      "8": {
+        "title": "Platform Logistik",
+        "desc": "Sistem pelacakan paket end‑to‑end untuk perusahaan ekspedisi."
+      }
+    }
+  }
+
+}

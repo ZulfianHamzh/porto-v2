@@ -1,0 +1,86 @@
+{
+  "Hero": {
+    "title": "Hello, I'm Zulfian Hamzah!",
+    "description": "Web and app development are my passion, and my name is Muhammad Zulfian. I started with a strong foundation and continuously hone my skills in both fields. My education in Informatics complements the real-world experience from various projects I've worked on, driving me to always create diverse and innovative solutions."
+  },
+  "ProfileCard": {
+    "title": "Web and Mobile App Developer",
+    "contactMe": "Contact Me"
+  },
+  "Header": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "About": {
+    "title": "About Me",
+    "description1": "I'm a developer with a strong foundation in HTML, CSS, and JavaScript. I'm proficient in mobile application development using Flutter and Dart, and have a solid understanding of SQL. For web development, I'm accustomed to using React.js and Node.js to build interactive user interfaces and scalable APIs. I'm also capable of developing native Android applications and am enthusiastic about mastering advanced concepts like responsive design, animations, state management, and full-stack integration.",
+    "description2": "I'm experienced in using Visual Studio Code, Android Studio, Git, and npm. As a collaborative individual, I'm always open to learning and contributing to innovative projects, committed to continuous self-improvement, and ready to face challenges in creating effective and modern digital solutions in the future.",
+    
+    "cardFrontendTitle": "Front End Developer",
+    "cardFrontendDesc": "Build responsive, interactive UI using modern frameworks.",
+
+    "cardBackendTitle": "Backend Developer",
+    "cardBackendDesc": "Design robust APIs, database schemas, and server logic.",
+
+    "cardUiTitle": "UI Design",
+    "cardUiDesc": "Craft intuitive interfaces with user-centered design principles.",
+
+    "cardMobileTitle": "Mobile App Development",
+    "cardMobileDesc": "Develop cross-platform apps with native performance."
+  },
+   "footer": {
+    "downloadCV": "Download CV"
+  },
+  "Project": {
+    "title": "My Projects",
+    "description1": "Here are some projects I've built recently.",
+    "viewProject": "View Project",
+    "seeMoreGithub": "See More On Github",
+    "timeline": {
+      "header": "My Experience Timeline",
+"mac": "Started Building Websites (2017)",
+  "imac": "Studied Informatics (2021 - 2025)",
+  "ipod": "Frequently Worked on Projects (2021 - Now)",
+  "iphone": "Internship at an IT Consultant Company R&D Division (2025 - Now)",
+      "watch": "Apple Watch"
+    },
+    "items": 
+    {
+        "1": {
+    "title": "React Logistics Website",
+    "desc": "Management and tracking of logistics company orders."
+  },
+  "2": {
+    "title": "React Payment Website",
+    "desc": "Payment form website using a payment gateway."
+  },
+  "3": {
+    "title": "Flutter Prediction Application",
+    "desc": "Application that predicts frequently damaged components using a Python ML backend."
+  },
+  "4": {
+    "title": "Flutter ESP Device Reading and Settings Application",
+    "desc": "Application used for setting IoT devices using BLE and Bluetooth."
+  },
+      "5": {
+        "title": "E‑Commerce Dashboard",
+        "desc": "Admin dashboard for monitoring real‑time sales."
+      },
+      "6": {
+        "title": "Social Media App",
+        "desc": "Mobile app built using React Native + Supabase."
+      },
+      "7": {
+        "title": "Portfolio Website",
+        "desc": "Personal website with GSAP & Three.js animations."
+      },
+      "8": {
+        "title": "Logistics Platform",
+        "desc": "End‑to‑end parcel tracking system for logistics companies."
+      }
+   }
+ }
+}
