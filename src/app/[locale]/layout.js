@@ -1,7 +1,6 @@
 // src/app/[locale]/layout.jsx
-// No need to import 'messa' or 'LocaleProvider' here.
 import { NextIntlClientProvider } from "next-intl";
-import { notFound } from 'next/navigation'; // Make sure this is imported
+import { notFound } from 'next/navigation';
 
 // Import the getRequestConfig function from your next-intl config file
 // Adjust the path if your next-intl.config.ts/js is not at the root
@@ -13,7 +12,11 @@ export async function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params }) {
-  const { locale } = params; // Correctly access locale from params
+  // --- PERBAIKAN DI SINI ---
+  // Await params to ensure it's resolved before accessing its properties
+  const resolvedParams = await params;
+  const { locale } = resolvedParams; // Access locale from the awaited params
+  // --- AKHIR PERBAIKAN ---
 
   let messages;
   try {
