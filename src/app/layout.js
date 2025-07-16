@@ -1,6 +1,3 @@
-// src/app/layout.jsx
-// Ini adalah root layout aplikasi Anda
-export const dynamic = "force-dynamic"
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -25,7 +22,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children} {/* children di sini akan menjadi src/app/[locale]/layout.jsx */}
+        {children}
       </body>
     </html>
   );

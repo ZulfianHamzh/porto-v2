@@ -21,13 +21,13 @@ export default function Hero() {
   };
 
   return (
-    <div id="home" className="min-h-content bg-gradient-to-b from-slate-950 to-slate-900 flex flex-col lg:flex-row items-center justify-center lg:justify-evenly p-4 sm:p-6 md:p-10">
+    <div id="home" className="min-h-content max-w-screen bg-gradient-to-b from-slate-950 to-slate-900 flex flex-col lg:flex-row items-center justify-center lg:justify-evenly p-4 sm:p-6 md:p-10">
       
       {/* Text Section */}
-      <section className="flex flex-col items-start lg:items-center text-justify lg:text-left mt-8 lg:mt-0 max-w-full lg:max-w-[50%] px-4">
+      <section className="flex flex-col text-justify lg:text-left mt-8 lg:mt-0 max-w-full lg:max-w-[60%] px-4">
         <SplitText
           text={t('title')}
-          className="text-5xl sm:text-5xl md:text-6xl lg:text-5xl font-semibold text-white mb-4"
+          className="text-5xl sm:text-4xl sm:text-center md:text-6xl lg:text-5xl text-left font-semibold text-white mb-4"
           delay={210}
           duration={0.6}
           ease="power3.out"
@@ -37,20 +37,22 @@ export default function Hero() {
           threshold={0.1}
           rootMargin="-100px"
           onLetterAnimationComplete={handleAnimationComplete}
+          // textAlign="centerz"
         />
 
         <SplitText
           text={t('description')}
-          className="text-base sm:text-lg md:text-xl font-normal text-slate-300 max-w-full lg:max-w-[90%] lg:mt-10 mb-8 "
+          className="text-base sm:text-lg md:text-xl font-normal text-slate-300 max-w-full lg:max-w-[90%]  lg:mt-10 mb-8 "
           delay={20}
           duration={0.3}
           ease="power3.out"
-          splitType="chars"
+          splitType="words"
           from={{ opacity: 0, y: 40 }}
           to={{ opacity: 1, y: 0 }}
           threshold={0.1}
           rootMargin="-100px"
           onLetterAnimationComplete={handleAnimationComplete}
+          textAlign="justify"
         />
       </section>
 
@@ -66,6 +68,8 @@ export default function Hero() {
           showUserInfo={true}
           enableTilt={true}
           onContactClick={() => scrollTo("contact")} 
+          className="w-max"
+          
           
         />
       </section>

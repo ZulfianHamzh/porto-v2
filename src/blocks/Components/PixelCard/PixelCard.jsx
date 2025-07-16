@@ -271,7 +271,7 @@ useEffect(() => {
     {/* Background Pixel Canvas */}
     <canvas
       ref={canvasRef}
-      className="w-full h-full block absolute top-0 left-0 z-0"
+      className="w-full justify-items-center h-full block absolute top-0 left-0 z-0"
     />
 
     {/* Children Content Layer */}

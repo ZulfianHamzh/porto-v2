@@ -99,7 +99,7 @@ export default function Project() {
         delay={0.3}
       >
         {/* Cards */}
-        <section className="w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+        <section className="w-full justify-items-center max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
           {projects.map((p) => (
             <PixelCard key={p.id} className="flex flex-col h-full">
               {/* Gambar */}
@@ -169,7 +169,7 @@ export default function Project() {
   </h2>
 
   {/* Timeline Container */}
-  <div className="w-full max-w-6xl relative">
+  <div className="w-5xl max-w-6xl relative">
     {/* Garis Horizontal (Desktop) */}
     <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-white/20 -translate-y-1/2 z-0" />
 
@@ -207,7 +207,7 @@ export default function Project() {
           )}
 
           {/* Label Mobile (Selalu tampil di bawah titik) */}
-          <div className="mt-4 md:hidden bg-slate-800 border border-slate-600 text-white text-sm px-4 py-2 rounded shadow-md w-fit max-w-[85%] text-center">
+          <div className="mt-4 md:hidden bg-slate-800 border border-slate-600 text-white text-sm px-4 py-2 rounded shadow-md w-fit max-w-[25%] text-center">
             {t(key)}
           </div>
         </li>

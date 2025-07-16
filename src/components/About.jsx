@@ -26,7 +26,7 @@ export default function About() {
         {/* Title animasi */}
         <SplitText
           text={t("title")}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-extrabold text-white mb-6 leading-tight"
           delay={210}
           duration={0.6}
           ease="power3.out"
