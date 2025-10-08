@@ -42,12 +42,12 @@ const projects = [
   //   img: "/images/projects/dashboard.png",
   //   url: "https://example.com/dashboard"
   // },
-  // {
-  //   id: 6,
-  //   date: "28 Apr 2025",
-  //   img: "/images/projects/social.png",
-  //   url: "https://example.com/social"
-  // },
+  {
+    id: 6,
+    date: "08 Okt 2025",
+    img: "/images/projects/social.png",
+    url: "https://saville.id/"
+  },
   // {
   //   id: 7,
   //   date: "03 Mar 2025",
