@@ -65,8 +65,8 @@
         "desc": "Dashboard admin untuk monitoring penjualan secara real‑time."
       },
       "6": {
-        "title": "Aplikasi Media Sosial",
-        "desc": "Aplikasi mobile berbasis React Native + Supabase."
+        "title": "Aplikasi Web E-Commerce Laravel",
+        "desc": "Aplikasi Web Laravel dengan skala E-commerce."
       },
       "7": {
         "title": "Website Portofolio",
